@@ -75,9 +75,9 @@ def insert_shared_env(template_path, output_path, shared_env_block, header_comme
 
 
 def main():
-    env_example_path = ".env.example"
-    template_path = "docker-compose-template.yaml"
-    output_path = "docker-compose.yaml"
+    env_example_path = "dify/docker/.env.example"
+    template_path = "dify/docker/docker-compose-template.yaml"
+    output_path = "dify/docker/docker-compose.yaml"
     anchor_name = "shared-api-worker-env"  # Can be modified as needed
 
     # Define header comments to be added at the top of docker-compose.yaml
